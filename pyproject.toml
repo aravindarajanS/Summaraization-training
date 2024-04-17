@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "abstractive summarizer training"
+version = "0.1.0"
+description = "training for BART summaraization"
+authors = ["Aravindarajan"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
