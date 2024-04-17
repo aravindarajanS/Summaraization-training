@@ -14,10 +14,10 @@ there are other datsets given and most of the dataset are before the advancement
 
 ## File Structure
 
-- `dataset_utils.py`: to process the dataset from the hf.
-- `trainer.py`: training component and arguments for the BART training.
-- `main.py`: main script of the training
-- `metrics.py` : Various non LLM based evaluation metrics that can be used. 
+- `src/dataset_utils.py`: to process the dataset from the hf.
+- `src/trainer.py`: training component and arguments for the BART training.
+- `src/main.py`: main script of the training
+- `metrics/metrics.py` : Various non LLM based evaluation metrics that can be used.
  (to train the model picked rouge score. can choose any techniques from the metrics)
-- `judge_llm.py` : to evaluate the summaraizarion using a LLm
+- `metrics/judge_llm.py` : to evaluate the summaraizarion using a LLm
 - `README.md`: This file.
